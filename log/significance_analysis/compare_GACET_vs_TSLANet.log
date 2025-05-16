@@ -1,0 +1,146 @@
+********************
+=== Dataset1-2class ===
+Metric: Accuracy
+           Mixed Linear Model Regression Results
+============================================================
+Model:              MixedLM   Dependent Variable:   value   
+No. Observations:   870       Method:               REML    
+No. Groups:         29        Scale:                0.0131  
+Min. group size:    30        Log-Likelihood:       593.1383
+Max. group size:    30        Converged:            Yes     
+Mean group size:    30.0                                    
+------------------------------------------------------------
+                  Coef. Std.Err.    z    P>|z| [0.025 0.975]
+------------------------------------------------------------
+Intercept         0.714    0.006 122.428 0.000  0.703  0.726
+C(model)[T.file2] 0.259    0.008  33.313 0.000  0.244  0.274
+fold Var          0.002    0.007                            
+============================================================
+
+Metric: F1
+           Mixed Linear Model Regression Results
+============================================================
+Model:              MixedLM   Dependent Variable:   value   
+No. Observations:   870       Method:               REML    
+No. Groups:         29        Scale:                0.0171  
+Min. group size:    30        Log-Likelihood:       479.8692
+Max. group size:    30        Converged:            Yes     
+Mean group size:    30.0                                    
+------------------------------------------------------------
+                  Coef. Std.Err.    z    P>|z| [0.025 0.975]
+------------------------------------------------------------
+Intercept         0.687    0.007 103.275 0.000  0.674  0.700
+C(model)[T.file2] 0.285    0.009  32.203 0.000  0.268  0.303
+fold Var          0.002    0.008                            
+============================================================
+
+********************
+=== Dataset1-4class ===
+Metric: Accuracy
+           Mixed Linear Model Regression Results
+===========================================================
+Model:               MixedLM  Dependent Variable:  value   
+No. Observations:    870      Method:              REML    
+No. Groups:          29       Scale:               0.0093  
+Min. group size:     30       Log-Likelihood:      654.2047
+Max. group size:     30       Converged:           Yes     
+Mean group size:     30.0                                  
+-----------------------------------------------------------
+                  Coef. Std.Err.   z    P>|z| [0.025 0.975]
+-----------------------------------------------------------
+Intercept         0.459    0.006 82.619 0.000  0.448  0.470
+C(model)[T.file2] 0.217    0.007 33.231 0.000  0.204  0.230
+fold Var          0.004    0.009                           
+===========================================================
+
+Metric: F1
+           Mixed Linear Model Regression Results
+===========================================================
+Model:               MixedLM  Dependent Variable:  value   
+No. Observations:    870      Method:              REML    
+No. Groups:          29       Scale:               0.0117  
+Min. group size:     30       Log-Likelihood:      562.3661
+Max. group size:     30       Converged:           Yes     
+Mean group size:     30.0                                  
+-----------------------------------------------------------
+                  Coef. Std.Err.   z    P>|z| [0.025 0.975]
+-----------------------------------------------------------
+Intercept         0.443    0.006 71.887 0.000  0.431  0.455
+C(model)[T.file2] 0.202    0.007 27.488 0.000  0.187  0.216
+fold Var          0.005    0.009                           
+===========================================================
+
+********************
+=== Dataset2-2class ===
+Metric: Accuracy
+           Mixed Linear Model Regression Results
+============================================================
+Model:              MixedLM   Dependent Variable:   value   
+No. Observations:   420       Method:               REML    
+No. Groups:         14        Scale:                0.0062  
+Min. group size:    30        Log-Likelihood:       409.5665
+Max. group size:    30        Converged:            Yes     
+Mean group size:    30.0                                    
+------------------------------------------------------------
+                  Coef. Std.Err.    z    P>|z| [0.025 0.975]
+------------------------------------------------------------
+Intercept         0.758    0.006 120.554 0.000  0.746  0.770
+C(model)[T.file2] 0.170    0.008  21.991 0.000  0.155  0.185
+fold Var          0.002    0.009                            
+============================================================
+
+Metric: F1
+           Mixed Linear Model Regression Results
+============================================================
+Model:              MixedLM   Dependent Variable:   value   
+No. Observations:   420       Method:               REML    
+No. Groups:         14        Scale:                0.0076  
+Min. group size:    30        Log-Likelihood:       360.3928
+Max. group size:    30        Converged:            Yes     
+Mean group size:    30.0                                    
+------------------------------------------------------------
+                  Coef. Std.Err.    z    P>|z| [0.025 0.975]
+------------------------------------------------------------
+Intercept         0.745    0.007 104.711 0.000  0.731  0.759
+C(model)[T.file2] 0.180    0.008  21.256 0.000  0.164  0.197
+fold Var          0.003    0.011                            
+============================================================
+
+********************
+=== Dataset2-5class ===
+Metric: Accuracy
+           Mixed Linear Model Regression Results
+===========================================================
+Model:               MixedLM  Dependent Variable:  value   
+No. Observations:    420      Method:              REML    
+No. Groups:          14       Scale:               0.0023  
+Min. group size:     30       Log-Likelihood:      605.3077
+Max. group size:     30       Converged:           Yes     
+Mean group size:     30.0                                  
+-----------------------------------------------------------
+                  Coef. Std.Err.   z    P>|z| [0.025 0.975]
+-----------------------------------------------------------
+Intercept         0.296    0.004 74.441 0.000  0.288  0.304
+C(model)[T.file2] 0.131    0.005 28.310 0.000  0.122  0.141
+fold Var          0.001    0.006                           
+===========================================================
+
+Metric: F1
+           Mixed Linear Model Regression Results
+===========================================================
+Model:               MixedLM  Dependent Variable:  value   
+No. Observations:    420      Method:              REML    
+No. Groups:          14       Scale:               0.0031  
+Min. group size:     30       Log-Likelihood:      522.8183
+Max. group size:     30       Converged:           Yes     
+Mean group size:     30.0                                  
+-----------------------------------------------------------
+                  Coef. Std.Err.   z    P>|z| [0.025 0.975]
+-----------------------------------------------------------
+Intercept         0.279    0.005 56.650 0.000  0.270  0.289
+C(model)[T.file2] 0.101    0.005 18.679 0.000  0.090  0.111
+fold Var          0.002    0.009                           
+===========================================================
+
+Completed GACET vs TSLANet
+

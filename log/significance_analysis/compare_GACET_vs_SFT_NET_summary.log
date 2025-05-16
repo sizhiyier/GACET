@@ -1,0 +1,32 @@
+********************
+=== Dataset1-2class ===
+Metric: Accuracy
+Beta=0.0185; 95%CI=(0.0102,0.0268); p=0.000
+Significant (p<0.05)
+Metric: F1
+Beta=0.0209; 95%CI=(0.0111,0.0307); p=0.000
+Significant (p<0.05)
+********************
+=== Dataset1-4class ===
+Metric: Accuracy
+Beta=0.1150; 95%CI=(0.0988,0.1312); p=0.000
+Significant (p<0.05)
+Metric: F1
+Beta=0.1169; 95%CI=(0.0985,0.1354); p=0.000
+Significant (p<0.05)
+********************
+=== Dataset2-2class ===
+Metric: Accuracy
+Beta=0.0893; 95%CI=(0.0726,0.1061); p=0.000
+Significant (p<0.05)
+Metric: F1
+Beta=0.1017; 95%CI=(0.0815,0.1220); p=0.000
+Significant (p<0.05)
+********************
+=== Dataset2-5class ===
+Metric: Accuracy
+Beta=0.0693; 95%CI=(0.0576,0.0810); p=0.000
+Significant (p<0.05)
+Metric: F1
+Beta=0.0617; 95%CI=(0.0475,0.0759); p=0.000
+Significant (p<0.05)
