@@ -7,6 +7,7 @@
 - Hardware: Dual NVIDIA GeForce RTX 3090 GPUs  
 
 
+```plaintext
 GACET/
 ├── data/              # single-subject data for running train_model.ipynb
 ├── feature/           # DE, PSD & SampEn feature extraction implementations
