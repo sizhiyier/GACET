@@ -40,7 +40,7 @@ class PSDCalculator(FeatureCalculator):
 					n_fft=n_fft,
 					fmin=freq_bands[band_name][0],
 					fmax=freq_bands[band_name][1],
-					# n_per_seg=512
+
 				)
 				print(f"PSD calculated successfully with n_fft: {n_fft}")
 				psd_mean = np.mean(psd[0], axis=2)  # Average over frequencies
