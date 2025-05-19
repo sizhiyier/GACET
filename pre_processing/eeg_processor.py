@@ -1,4 +1,3 @@
-# signal_process/eeg_process/eeg_preprocessing/eeg_processor.py
 import inspect
 import numpy as np
 import warnings
